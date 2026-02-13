@@ -1,0 +1,15 @@
+[baseos-source]
+name=Rocky Linux - BaseOS - Source
+baseurl=https://mirror.cpsc.ucalgary.ca/mirror/rocky-linux/10.1/BaseOS/source/tree/
+gpgcheck=1
+repo_gpgcheck=0
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-10
+
+[appstream-source]
+name=Rocky Linux - AppStream - Source
+baseurl=https://mirror.cpsc.ucalgary.ca/mirror/rocky-linux/10.1/AppStream/source/tree/
+gpgcheck=1
+repo_gpgcheck=0
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-10
