@@ -1,2 +1,0 @@
-# Renovate uses this file to refresh the lockfile at least once a day
-today=2026-02-09

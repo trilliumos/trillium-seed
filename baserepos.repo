@@ -1,0 +1,28 @@
+# Rocky Linux 10 repos for the foundation
+[baseos]
+name=Rocky Linux $releasever - BaseOS
+#mirrorlist=http://mirrorlist.rockylinux.org?arch=$basearch&repo=BaseOS-10
+baseurl=https://mirror.cpsc.ucalgary.ca/mirror/rocky-linux/10.1/BaseOS/aarch64/os/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-10
+enabled=1
+
+[appstream]
+name=Rocky Linux $releasever - AppStream
+#mirrorlist=http://mirrorlist.rockylinux.org?arch=$basearch&repo=AppStream-8
+baseurl=https://mirror.cpsc.ucalgary.ca/mirror/rocky-linux/10.1/AppStream/aarch64/os/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-10
+enabled=1
+
+# trilliumOS COPR repo from sassam for the updated `kernel` & `btrfs-progs` packages
+[trilliumos]
+name=Copr repo for trilliumOS owned by sassam
+baseurl=https://download.copr.fedorainfracloud.org/results/sassam/trilliumOS/epel-10-$basearch/
+type=rpm-md
+skip_if_unavailable=False
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/sassam/trilliumOS/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1

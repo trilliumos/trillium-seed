@@ -1,9 +1,0 @@
-include:
-  - includes/rockylinux.yaml
-  - fedora-bootc/standard/manifest.yaml
-
-packages:
-  # To support builds *from* this host using entitled content
-  - subscription-manager
-  # https://issues.redhat.com/browse/RHEL-35291
-  - dnf-yum
