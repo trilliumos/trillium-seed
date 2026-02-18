@@ -6,11 +6,10 @@ repos:
   - trilliumos
 
 variables:
-  distro: "almalinux10"
+  distro: "rockylinux10"
 
 packages:
-  - almalinux-repos
-  - btrfs-progs
+  - rocky-repos
   - trilliumos-logos
 
 postprocess:
