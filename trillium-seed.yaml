@@ -10,7 +10,6 @@ variables:
 
 packages:
   - rocky-repos
-  - trilliumos-logos
 
 postprocess:
   - |
