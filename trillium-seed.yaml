@@ -6,10 +6,11 @@ repos:
   - trilliumos
 
 variables:
-  distro: "rockylinux10"
+  distro: "centos"
 
 packages:
-  - rocky-repos
+  - centos-stream-repos
+  - btrfs-progs
 
 postprocess:
   - |
