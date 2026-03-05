@@ -1,6 +1,5 @@
-# Using this repo file as there is an issue/error when using the mirrorlist URL. #
-
-# trilliumOS COPR repo from sassam for the updated `kernel` package
+# trilliumOS COPR repo from sassam used to install the 6.18.0-65 ELN `kernel`, btrfs-progs and
+# other packages required for trilliumOS.
 [trilliumos]
 name=Copr repo for trilliumOS owned by sassam
 baseurl=https://download.copr.fedorainfracloud.org/results/sassam/trilliumOS/epel-10-$basearch/
